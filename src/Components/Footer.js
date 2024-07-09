@@ -3,7 +3,7 @@ export class Footer extends Component {
   render() {
     return (
       <>
-       <div className="later">
+       <div className="later font-source-sans-pro">
         <div className="element">INVENT</div>
      </div>
         <div className="footer">
@@ -11,7 +11,7 @@ export class Footer extends Component {
         <div className="content">INSTITUTION’S INNOVATION COUNCIL</div>
         <div className="line2"></div>
         <div className="foot-content">
-            <div className="box1">
+            <div className="box1 font-source-sans-pro">
                 <div className="c1">Quick Links</div>
                 <div className="line3"></div>
                 <hr />
@@ -23,7 +23,7 @@ export class Footer extends Component {
                     <div className="b1"><a href="">Contact Us</a></div>
                 </div>
             </div>
-            <div className="box2">
+            <div className="box2 font-source-sans-pro">
                 <div className="c2">Connect</div>
                 <div className="line3"></div>
                 <hr />
@@ -33,7 +33,7 @@ export class Footer extends Component {
                     <div className="b4"><i className="fa-brands fa-linkedin-in "></i></div>
                 </div>
             </div>
-            <div className="box3">
+            <div className="box3 ">
                 <div className="c3">Contact</div>
                 <div className="line3"></div>
                 <hr />

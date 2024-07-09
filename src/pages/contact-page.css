@@ -23,21 +23,22 @@
     width: 1050px;
     height: 700px;
     background:#fff;
-    left: 200px;
-    top: 50px;
+    left: 30rem;
+    top: 15rem;
     box-shadow: 10px;
     border: 1px solid  #000;
 }
 .img2 img{
     width: 400px;
     position:absolute;
-    left: 10px;
+    left: 0;
+    top: 2 rem;
     bottom: 2px;
 }
 .img3 img{
     width: 30%;
     height:100%;
-    left: 1100px;
+    left: 75%;
     top: 200px;
     z-index: -1;
 }
@@ -130,7 +131,7 @@
     height: 200px;
     background-color: #F3CC4F;;
     position: relative;
-    left: 600px;
+    left: 52rem;
     top: 100px;
     z-index: -1;
 }
@@ -139,14 +140,21 @@
     color: #FFE878;
     position: relative;
     right: 250px;
-    top: 50px;
+    top: 6rem;
     z-index: -1;
+}
+.bg-img{
+    background: url('../../public/team_bg.png') repeat-y center fixed;
 }
 .footer{
     width:100%;
     height: 700px;
     background-color: black;
-    margin-top: 100px;
+    margin-top: 9rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 .line1{
     width: 38%;
@@ -168,7 +176,7 @@
     background-color: #fff;
     position: relative;
     top: 20px;
-    left: 930px;
+    left: 75rem;
 }
 .foot-content{
     width: 800px;
@@ -281,6 +289,7 @@ a{
 .box4{
     padding-top: 20px;
     font-size: 20px;
+    width: 24rem;
 }
 .box5{
     font-size: 20px;

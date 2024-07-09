@@ -72,7 +72,7 @@ const LandingPage1 = () => {
           </nav>
         </>)}
       {showIntro && (<>
-        <div className="absolute top-[20rem] left-[4rem] lg:left-[18.94rem] sm:text-center lg:text-left text-[1rem] lg:text-[3rem] font-inter">
+        <div className="absolute top-[20rem] left-[4rem] lg:left-[18.94rem] sm:text-center lg:text-left text-[1rem] lg:text-[3rem] xl:left-[33rem] xl:top-[25rem] font-inter">
           <div className="mb-8 lg:mb-4  text-[3rem] md:text-6x1 lg:text-[10.5rem] text-white font-whyte-inktrap">
             INNOVATE
           </div>
